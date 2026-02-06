@@ -1,0 +1,45 @@
+{
+  "name": "rud-skills",
+  "version": "1.0.0",
+  "description": "CLI platform for managing, adding, and organizing developer skills from GitHub repositories",
+  "main": "index.js",
+  "bin": {
+    "rud-skills": "./bin/rud-skills.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "validate": "npm run lint && npm test"
+  },
+  "keywords": [
+    "skills",
+    "cli",
+    "developer-tools",
+    "github",
+    "repository",
+    "management"
+  ],
+  "author": "Royal Union Design <royaluniondesign@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royaluniondesign-sys/RUD-SKILLS.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "bin/",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  }
+}
